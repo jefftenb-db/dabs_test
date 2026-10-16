@@ -1,7 +1,0 @@
-resources:
-  genie_spaces:
-    travel_revenue_analysis:
-      title: "Travel Revenue Analysis"
-      warehouse_id: 90769889ac7f4a75
-      file_path: ../src/travel_revenue_analysis.geniespace.json
-      parent_path: /Workspace/Users/jeff.tenbosch@databricks.com
