@@ -29,7 +29,7 @@ targets:
     variables:
       catalog_source: samples
       catalog_target: tenbosch
-      schema_target: wanderbricks
+      schema_target: wanderbricks_${workspace.current_user.short_name}
   prod:
     mode: production
     workspace:
