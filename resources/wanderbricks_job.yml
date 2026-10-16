@@ -1,7 +1,7 @@
 resources:
   jobs:
     wanderbricks_daily_report:
-      name: "Wanderbricks Daily Booking Report"
+      name: "Wanderbricks Daily Booking Report_orig"
       tasks:
         - task_key: run_analysis
           environment_key: Default
