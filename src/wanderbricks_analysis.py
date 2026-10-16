@@ -25,7 +25,7 @@ revenue_by_dest = (
     .agg(F.sum("total_amount").alias("total_revenue"),
         F.count("booking_id").alias("booking_count"),
         # Lab 1: add a new metric here, then redeploy and rerun the job.
-        # F.avg("total_amount").alias("avg_booking_value")
+        F.avg("total_amount").alias("avg_booking_value")
         )
     .orderBy(F.desc("total_revenue"))
 )
